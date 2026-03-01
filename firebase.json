@@ -1,0 +1,30 @@
+{
+	"functions": {
+		"source": "functions"
+	},
+	"firestore": {
+		"rules": "firestore.rules"
+	},
+	"flutter": {
+		"platforms": {
+			"android": {
+				"default": {
+					"projectId": "civic-complaint-a8bd5",
+					"appId": "1:10495381934:android:9e11a6ea523eb9f0eff83f",
+					"fileOutput": "android/app/google-services.json"
+				}
+			},
+			"dart": {
+				"lib/firebase_options.dart": {
+					"projectId": "civic-complaint-a8bd5",
+					"configurations": {
+						"android": "1:10495381934:android:9e11a6ea523eb9f0eff83f",
+						"ios": "1:10495381934:ios:b4b69df26c098625eff83f",
+						"web": "1:10495381934:web:3d43edf4fae1cb19eff83f",
+						"windows": "1:10495381934:web:fa135dd49633f055eff83f"
+					}
+				}
+			}
+		}
+	}
+}

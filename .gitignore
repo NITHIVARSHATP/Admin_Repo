@@ -1,0 +1,56 @@
+# ================= FIREBASE (CRITICAL) =================
+# Firebase auto generated options (each developer generates locally)
+lib/firebase_options.dart
+
+# Android Firebase config (contains API keys)
+android/app/google-services.json
+
+# iOS Firebase config
+ios/Runner/GoogleService-Info.plist
+
+# FlutterFire CLI cache
+.flutterfire/
+
+# Firebase emulator & debug files
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc
+
+# ================= ANDROID BUILD =================
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/build/
+android/build/
+
+# Keystore (DO NOT PUSH)
+*.jks
+*.keystore
+
+# ================= WEB =================
+web/firebase-config.js
+web/.dart_tool/
+
+# ================= WINDOWS / LINUX / MACOS =================
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+
+# ================= RIVERPOD / BUILD RUNNER =================
+*.g.dart
+*.freezed.dart
+
+.dart_tool/chrome-device/
+
+# Logs
+*.log
+
+# Flutter
+.dart_tool/
+build/
+
+# IDE
+.idea/
+
+# ================= IDE CACHE =================
+.vscode/
